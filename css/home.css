@@ -1,0 +1,883 @@
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	background: #fff;
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: 'Oswald VariableFont wght'sanos-serif !important;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.pad-tp-50 {
+	padding: 50px 0px;
+}
+
+.mr-tp-30 {
+	margin-bottom: 30px;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.button-sec {
+	margin-top: 40px;
+}
+
+.button-sec .blue-btn,
+.blue-btn {
+	background: #FBFBFB;
+	padding: 15px 50px;
+	font-size: 24px;
+	color: #000000;
+	cursor: pointer;
+	display: inline-block;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	font-weight: 600;
+	border: none;
+}
+
+.button-sec .blue-btn:hover,
+.blue-btn:hover {
+	background: #63add8;
+	color: #fff;
+}
+
+.blue-btn .sub-title {
+	display: block;
+	font-size: 14px;
+}
+
+.orange-button {
+	padding: 15px 50px;
+	background: #ed5434;
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	font-weight: 600;
+	border: none;
+}
+
+.orange-button:hover,
+.orange-button:focus {
+	color: #fff;
+	background: rgb(228, 59, 44);
+}
+
+header.sticky {
+	background: #fff;
+}
+
+.main-menu>ul>li>a {
+	font-size: 16px;
+	padding: 15px 10px 15px 10px;
+}
+
+ul#access_top li a.get-started {
+	background: #1086ca;
+	border-radius: 0px;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #fff;
+	padding: 10px 30px;
+}
+
+#logo img {
+	height: 47px;
+}
+
+/*===== Banner Section CSS Start =====*/
+.home-video .mobile_fix {
+	padding: 50px;
+}
+
+.home-video .mobile_fix h1 {
+	color: #FFF !important;
+	font-weight: 600 !important;
+	font-size: 60px !important;
+	line-height: 70px;
+	width: 60%;
+	margin: 20px 0px;
+}
+
+.home-video .mobile_fix h2 {
+	font-size: 40px;
+	line-height: 50px;
+	color: #fff;
+}
+
+.home-video .mobile_fix a {
+	margin-top: 125px;
+}
+
+.home-video .mobile_fix p {
+	font-weight: 600;
+}
+
+#hero_video,
+#hero_video>div {
+	text-align: left;
+}
+
+/*===== Banner Section CSS Start =====*/
+
+/*===== Product Section CSS Start =====*/
+.sec-title {
+	
+	margin-bottom: 40px;
+}
+
+.sec-title h2 {
+	color: #545151;
+	font-size: 45px;
+	line-height: 55px;
+	font-weight: 800;
+	font-family: lekton;
+}
+
+.sec-title h4 {
+	color: #545151;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 400;
+	font-family: "roboto"
+}
+
+.product-video-bg {
+	background: #87a5bc;
+	padding: 100px 0px;
+}
+
+.product-sec .sec-title {
+	margin-top: 80px;
+}
+
+.product-overview {
+	box-shadow: 0 2px 22px 0 rgba(0, 0, 0, .12);
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+}
+
+.product-overview h3 {
+	color: #000000;
+	font-size: 26px;
+	line-height: 36px;
+	font-weight: 500;
+	font-family: "leaguegothic regular"
+}
+
+.product-overview h3 span {
+	color: #FCD5AE;
+}
+
+.product-overview .product-des {
+	padding: 30px 20px;
+	;
+}
+
+.product-overview .box-content {
+	padding: 30px 10px 30px 0;
+	background: rgba(0, 0, 0, 0.9);
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-transition: all 0.35s ease 0s;
+	transition: all 0.35s ease 0s;
+}
+
+/*===== Product Section CSS End =====*/
+
+/*===== About Comapny Section CSS Start =====*/
+.about-company {
+	background: #3D3B3B;
+	padding: 100px 0px;
+}
+
+.about-company .company-detail h3 {
+	color: #fff;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.about-company .company-detail p {
+	color: #fff;
+	width: 60%;
+	margin: 30px auto;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+/*===== About Comapny Section CSS End =====*/
+
+/*===== Comapny Video Section CSS Start =====*/
+.company-video-sec {
+	background: url('../img/home/video-bg.jpg');
+	height: 780px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+/*===== Comapny Video Section CSS End =====*/
+
+/*===== Work With Section CSS Start =====*/
+.work-with .sec-title {
+	margin-bottom: 40px;
+}
+
+.work-with .work-steps {
+	padding-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.work-with .work-steps .icon-ok-2 {
+	font-size: 28px;
+}
+
+.work-with .work-steps li {
+	display: flex;
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.work-with .work-steps li span {
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.work-with-steps {
+	background: #012ad2;
+	background: -moz-linear-gradient(45deg, #012ad2 0%, #2459db 40%, #4a87e2 99%);
+	background: -webkit-linear-gradient(45deg, #012ad2 0%, #2459db 40%, #4a87e2 99%);
+	background: linear-gradient(45deg, #012ad2 0%, #2459db 40%, #4a87e2 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#012ad2', endColorstr='#4a87e2', GradientType=1);
+}
+
+.work-with-steps .work-images .button-sec {
+	margin-top: 80px;
+}
+
+.work-with-steps .work-images h2 {
+	color: #fff;
+	font-size: 45px;
+	line-height: 55px;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+
+.work-images .work-steps-col {
+	text-align: center;
+}
+
+.work-images .work-steps-col h3 {
+	font-weight: 400;
+	color: #fff;
+	font-size: 24px;
+	line-height: 34px;
+	margin: 40px 0px 10px;
+}
+
+.work-images .work-steps-col p {
+	color: #fff;
+	font-size: 12px;
+	line-height: 26px;
+}
+
+.video-btn-sec {
+	background: #3D3B3B;
+}
+
+.video-btn-sec .button-sec {
+	margin-top: 0px;
+}
+
+/*===== Work With Section CSS End =====*/
+
+/*===== Satisfaction Section CSS Start =====*/
+.satisfy-sec {
+	background: #1a1a1a;
+	padding: 100px 0px;
+}
+
+.satisfy-sec .row {
+	display: flex;
+	align-items: center;
+}
+
+.satisfy-sec h5 {
+	color: #fff;
+	font-size: 26px;
+	line-height: 40px;
+}
+
+.client-comment-img {
+	margin-top: 50px;
+}
+
+.client-cmnt-bg {
+	background: #22314c;
+}
+
+/*===== Satisfaction Section CSS End =====*/
+
+/*===== Our Video Section CSS Start =====*/
+.our-video-sec {
+	background: url('../img/home/our-video-bg.jpg');
+	height: 720px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+}
+
+.our-video-sec .video-detail h2 {
+	color: #fff;
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 500;
+}
+
+.our-video-sec .video-detail h5 {
+	color: #fff;
+	font-size: 24px;
+	line-height: 34px;
+	width: 50%;
+	margin: 20px auto;
+}
+
+.our-video-sec .video-detail img {
+	max-width: 40%;
+}
+
+/*===== Our Video Section CSS End =====*/
+
+/*===== FAQs Section CSS Start =====*/
+. {
+	padding: 100px 0px;
+}
+
+.faq-sec h2 {
+	margin: 0px 0px 30px;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+#faq-accordion .panel-heading a {
+	position: relative;
+	padding: 20px 35px 20px 20px;
+	font-weight: 500;
+}
+
+#faq-accordion .panel-heading a:hover {
+	background: rgb(66, 185, 159);
+	color: #fff;
+}
+
+#faq-accordion .panel-heading a .icon-plus {
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+
+#faq-accordion .panel-heading a .icon-plus:before {
+	content: '\e825';
+}
+
+#faq-accordion .panel-heading a.collapsed .icon-plus:before {
+	content: '\e821';
+}
+
+#faq-accordion.panel-group .panel {
+	margin-bottom: 25px;
+}
+
+#faq-accordion.panel-group .panel+.panel {
+	margin-top: 15px
+}
+
+#faq-accordion .panel-default>.panel-heading {
+	padding: 0px;
+	border-bottom: none;
+}
+
+#faq-accordion .panel-body h3 {
+	margin-top: 0px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+#faq-accordion .panel-body p {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+#faq-accordion .panel-body ul li {
+	margin-bottom: 10px;
+}
+
+#faq-accordion .panel-body ul li:last-child {
+	margin-bottom: 0px;
+}
+
+/*===== FAQs Section CSS End =====*/
+
+/*===== Appointment Section CSS Start =====*/
+.appointment-sec {
+	background: #1c2739;
+}
+
+.appointment {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.appointment .services {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.services .service-detail {
+	margin-left: 20px;
+}
+
+.services .service-detail h5 {
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.services .service-detail p {
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.appointment .book-service {
+	text-align: center;
+}
+
+.appointment .book-service a {
+	display: inline-block;
+	background: #fff;
+	color: #1c2739;
+	padding: 15px 30px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.appointment .book-service h4 {
+	color: #fff;
+	font-size: 24px;
+	line-height: 34px;
+	margin-bottom: 10px;
+}
+
+/*===== Appointment Section CSS End =====*/
+
+/*===== Footer Section CSS Start =====*/
+footer {
+	background-color: #09242b;
+	padding: 45px 0px;
+}
+
+.footer-links h3 {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.footer-links h3::after {
+	position: absolute;
+	content: '';
+	background: #fff;
+	height: 2px;
+	width: 60%;
+	bottom: 0px;
+	left: 0px;
+}
+
+.footer-links a {
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 400;
+}
+
+.footer-links a:last-child {
+	margin-bottom: 0px;
+}
+
+.footer-links a:hover {
+	padding-left: 5px;
+}
+
+/*===== Footer Section CSS End =====*/
+
+
+/*========================= Responsive CSS Start =========================*/
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1024px) {
+	.home-video .mobile_fix h1 {
+		font-size: 30px !important;
+		line-height: 40px;
+		width: 100%;
+		margin: 10px 0px;
+	}
+
+	.home-video .mobile_fix h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.home-video .mobile_fix a {
+		padding: 10px 20px;
+		font-size: 20px;
+	}
+
+	.home-video .mobile_fix p {
+		font-size: 16px !important;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	#logo img {
+		height: auto;
+	}
+
+	.cmn-toggle-switch {
+		top: 20px;
+	}
+
+	.work-with .work-steps li {
+		font-size: 20px;
+	}
+
+	.about-company .company-detail p,
+	.our-video-sec .video-detail h5 {
+		width: 100%;
+	}
+
+	.faq-sec {
+		padding: 50px 0px 20px;
+	}
+
+	.appointment,
+	.appointment .services {
+		text-align: center;
+		display: block;
+	}
+
+	.appointment .book-service {
+		margin-top: 40px;
+	}
+
+	.footer-links a {
+		font-size: 14px;
+	}
+
+	ul#access_top {
+		margin: 12px 45px 0px 0px;
+	}
+
+	.home-video .mobile_fix {
+		padding: 0px;
+		background: transparent;
+	}
+
+	.company-video-sec,
+	.our-video-sec {
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.slide-wrap.dark-overlay h1 {
+		margin-bottom: 10px;
+	}
+
+	.btn-container.inline-btn-container:last-child {
+		margin-left: 0px;
+	}
+
+	.btn-container.inline-btn-container {
+		min-width: 55%;
+	}
+
+
+
+	header {
+		background: #262626;
+		padding: 10px;
+		height: 70px;
+	}
+
+	.cmn-toggle-switch {
+		top: 15px;
+	}
+
+	.header-video {
+		/* margin-top: 70px; */
+	}
+
+	body section.header-video.home-video {
+		width: calc(100vw) !important;
+	}
+
+	video#teaser-video {
+		height: 100%;
+		width: 170vh;
+		max-width: initial;
+		margin-left: -50%;
+	}
+
+	.slide-wrap.dark-overlay h1 {
+		font-size: 52px !important;
+	}
+
+	#logo img {
+		margin: 10px 0px 0px 0px;
+	}
+
+	.sec-title h2,
+	.our-video-sec .video-detail h2,
+	.work-with-steps .work-images h2,
+	.faq-sec h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.button-sec .blue-btn,
+	.blue-btn,
+	.appointment .book-service a {
+		font-size: 16px;
+		padding: 15px 30px;
+	}
+
+	.blue-btn .sub-title {
+		font-size: 12px;
+	}
+
+	.product-sec .sec-title {
+		margin-top: 40px;
+	}
+
+	.home-video .mobile_fix p,
+	.home-video .mobile_fix h2,
+	.home-video .mobile_fix .sub-title {
+		display: none;
+	}
+
+	.home-video .mobile_fix {
+		padding: 0px;
+		background: transparent;
+	}
+
+	.home-video .mobile_fix h1 {
+		font-size: 20px !important;
+		line-height: 30px;
+	}
+
+	.home-video .mobile_fix a {
+		margin-top: 0px;
+		padding: 5px 15px;
+		font-size: 16px;
+	}
+
+	ul#access_top {
+		margin: 12px 25px 0px 0px;
+	}
+
+	.button-sec .blue-btn {
+		font-size: 18px;
+		padding: 15px 30px;
+	}
+
+	.sec-title {
+		margin-bottom: 40px;
+	}
+
+	.about-company,
+	.satisfy-sec {
+		padding: 50px 0px;
+	}
+
+	.about-company .company-detail h3,
+	.sec-title h4,
+	.our-video-sec .video-detail h5 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.about-company .company-detail p {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.satisfy-sec .row {
+		display: block;
+	}
+
+	.work-with .work-steps li {
+		display: inline-flex;
+		width: 100%;
+	}
+
+	.work-with .work-steps li span {
+		font-size: 22px;
+		line-height: 36px;
+	}
+
+	.work-images .work-steps-col {
+		margin-bottom: 30px;
+	}
+
+	.satisfy-sec h5 {
+		text-align: center;
+	}
+
+	.work-with .work-images .button-sec {
+		margin-top: 20px;
+	}
+
+	footer {
+		padding: 50px 0px 20px;
+	}
+
+	footer .footer-links {
+		margin-bottom: 30px;
+	}
+}
+
+/*========================= Responsive CSS End =========================*/
+
+section.header-video.home-video {
+	padding-top: 0;
+}
+
+section.header-video.home-video {
+	padding-top: 0;
+}
+
+.slide-wrap.dark-overlay {
+	padding: 3% !important;
+	box-sizing: border-box;
+	float: left;
+	height: 100% !important;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	padding-top: 90px !important;
+}
+
+.slide-wrap.dark-overlay .slide-content {
+	width: 100% !important;
+	float: left;
+	height: auto;
+}
+
+section.header-video.home-video {
+	height: 100vh !important;
+	padding: 0 !important;
+	/* border: solid 20px #fff; */
+	width: calc(100vw - 20px) !important;
+}
+
+/* section.header-video.home-video:before {
+	content: "";
+	position: absolute;
+	width: calc(100% + 5px);
+	height: 95px;
+	background: #fff;
+	z-index: 230;
+	left: 4px;
+	bottom: -60px;
+	transform: rotate(-3deg);
+} */
+
+.icon-box.align-center:before {
+	content: "" !important;
+}
+
+section+section,
+section+.vc_row-full-width+section {
+	border-top: 0px !important;
+}
+
+section.product-sec {
+	padding-top: 0px;
+}
+
+.vc_column-inner h2 {
+	margin-top: 20px;
+}
+
+.vc_column-inner h4 {
+	margin-bottom: 10px;
+}
+
+.slide-wrap.dark-overlay h1 {
+	font-size: 70px;
+}
+
+section.section-skewed {
+	padding-bottom: 40px !important;
+}

@@ -845,7 +845,7 @@ section.header-video.home-video {
     height: 100vh !important;
     padding: 0 !important;
     /* border: solid 20px #fff; */
-    width: calc(100vw - 20px) !important;
+    /* width: calc(100vw - 20px) !important; */
 }
 
 /* section.header-video.home-video:before {

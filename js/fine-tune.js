@@ -1,6 +1,4 @@
 $(document).ready(function () {
-    AOS.init();
-
     $('.popup-video').click(function () {
         var src = $(this).attr('video-src');
         $('#video-pop-up .video-wrap').attr('src', src);

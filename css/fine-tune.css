@@ -382,6 +382,18 @@ h3.underline-rr:before {
     color: #fff;
 }
 
+.work-images h2.content-heading-rr span.typed-words {
+    min-width: 29px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    margin-left: 15px;
+}
+
+.work-images h2.content-heading-rr {
+    padding-right: 29px;
+}
+
 .product-overview.text-center.potrait-videos {
     background: transparent;
     box-shadow: 0px 0px;
@@ -453,6 +465,12 @@ section {
         margin-bottom: 30px;
     }
 
+    video#teaser-video {
+        height: 120%;
+        width: 322%;
+        max-width: 400%;
+    }
+
     .btn-container.inline-btn-container {
         margin-top: 40px;
     }
@@ -479,6 +497,14 @@ section {
 
     .product-video-bg {
         padding: 50px 0;
+    }
+
+    .footer-links a {
+        font-size: 18px;
+    }
+
+    .footer-links h3 {
+        font-size: 28px;
     }
 
     .product-video-bg h2 {
@@ -586,7 +612,7 @@ section {
     }
 
     .work-steps-col img {
-        width: 61%;
+        width: 74%;
     }
 
     a.popup-video {
@@ -598,5 +624,24 @@ section {
 
     a.popup-video i.fas.fa-play {
         font-size: 14px;
+    }
+
+    .our-video-sec .video-detail h5 {
+        padding: 0 13px;
+    }
+
+    .our-video-sec .video-detail h2 {
+        font-size: 34px;
+        font-weight: 600;
+    }
+
+    ul.work-steps {
+        text-align: center;
+    }
+
+    .work-images .work-steps-col h3 {
+        margin-bottom: 34px !important;
+        padding: 0 50px;
+        font-size: 27px;
     }
 }

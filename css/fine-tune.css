@@ -60,6 +60,26 @@ button.mfp-close {
     position: absolute;
 }
 
+h4.upper.white-text.var-head-rr {
+    margin-bottom: 30px;
+}
+
+.appointment-sec .button-sec .blue-btn,
+.appointment-sec .blue-btn img {
+    width: 30px;
+    height: 30px;
+    margin-top: -6px;
+    margin-left: 5px;
+}
+
+.appointment-sec .button-sec .blue-btn,
+.appointment-sec .blue-btn {
+    font-size: 30px;
+    letter-spacing: 0;
+    color: #fff !important;
+    background: #2ca4df;
+}
+
 .vc_column-inner h2 {
     margin-bottom: 60px;
 }
@@ -413,6 +433,31 @@ section {
     min-width: fit-content;
     float: left;
     width: 100% !important;
+}
+
+h4.white-text.var-head-rr {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000 !important;
+    text-transform: initial;
+}
+
+h4.white-text.var-head-rr strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+h4.white-text.var-head-rr span {
+    color: #fff;
+}
+
+h4.small.white-text.var-head-rr {
+    font-size: 30px;
+}
+
+section.appointment-sec.pad-tp-50 {
+    background: rgba(58, 82, 145, 1);
 }
 
 @media screen and (max-width: 1024px) {
